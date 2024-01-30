@@ -3149,7 +3149,7 @@ static void emitUses(void)
 		if (g_translate_html) {
 			fprintf(outputF, "<tr><td></td><td>");
 		}
-		fprintf(outputF, "from __future__ import print_function");
+		//fprintf(outputF, "from __future__ import print_function");
 		if (g_translate_html) {
 			fprintf(outputF, "</td></tr>");
 		}
